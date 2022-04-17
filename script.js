@@ -124,12 +124,12 @@ window.addEventListener('DOMContentLoaded',function()
        const frameCat = frame.filter(function(frames){
             if (frames.category = cat){
                 return frameCat;
-                }
-       };
+                };
+       });
                displayFrameItem(frameCat);                
        // console.log(frame.filter(({category})=> category == cat),  frame); 
            
-     //  })
+       });
        
 //buttons.forEach(function (btn) {
    // btn.addEventListener('click', function (e) {
