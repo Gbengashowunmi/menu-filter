@@ -121,8 +121,8 @@ window.addEventListener('DOMContentLoaded',function()
     btn.addEventListener('click', function(e) {
         const cat = e.currentTarget.dataset.me;
         // console.log(cat);
-       const frameCat = frame.filter(function(category){
-            if (category.cat = cat){
+       const frameCat = frame.filter(function(frames){
+            if (frames.category = cat){
                 return frameCat;
                 }
        };
