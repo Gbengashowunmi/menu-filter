@@ -111,22 +111,31 @@ const buttons = document.querySelectorAll('.btns');
 
 
 //load items
-// window.addEventListener('DOMContentLoaded',function()
-// {
-//    displayFrameItem(frame);
-// });
+window.addEventListener('DOMContentLoaded',function()
+{
+   displayFrameItem(frame);
+ });
 
 //filter items
-buttons.forEach(function(btn){
-    btn.addEventListener('click', function(e) {
-        const cat = e.target.innerText;
+// buttons.forEach(function(btn){
+    // btn.addEventListener('click', function(e) {
+       // const cat = e.target.innerText;
         // console.log(cat);
     //    const frameCat = frame.filter(({category})=> category == cat);
-       console.log(frame.filter(({category})=> category == cat),  frame); 
+       // console.log(frame.filter(({category})=> category == cat),  frame); 
            
-       })
+     //  })
        
-
+buttons.forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+        const cat = e.target.innerText;
+        // console.log(cat);
+        const frameCat = frame.filter(({ category }) => {
+            if (cat.toLowerCase() === 'all') return true; // when cat is 'all' just return true for all items (check filter mecthod docs)
+            return category === cat.toLowerCase(); // i added lower case to match the correct spelling as innerText was capitalized
+        });
+        console.log(frameCat);
+    })
 
 
     //        if (frames.category === category) {
