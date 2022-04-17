@@ -117,11 +117,11 @@ window.addEventListener('DOMContentLoaded',function()
  });
 
 //filter items
-// buttons.forEach(function(btn){
-    // btn.addEventListener('click', function(e) {
-       // const cat = e.target.innerText;
+ buttons.forEach(function(btn){
+    btn.addEventListener('click', function(e) {
+        const cat = e.currentTarget.dataset.me;
         // console.log(cat);
-    //    const frameCat = frame.filter(({category})=> category == cat);
+       const frameCat = frame.filter(({category})=> category == cat);
        // console.log(frame.filter(({category})=> category == cat),  frame); 
            
      //  })
