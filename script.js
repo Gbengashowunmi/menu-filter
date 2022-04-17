@@ -22,7 +22,7 @@ const frame = [
     },
     {
         category : 'shakes',
-        image: "/images/image_4.jpeg",
+        image: "20210918_200420.jpg",
         title : 'Bread and Beans',
         price : '48',
         details: 'quo repudiandae. Inventore, neque tenetur sit nesciunt consequuntur, optio illum fuga modi eligendi non corporis dolor explicabo animi. Dolorum unde alias molestiae quod, ad labore aspernatur nam harum, voluptas minus explicabo? Reiciendis corrupti quia quam voluptatibus dolore possimus eligendi' 
@@ -36,14 +36,14 @@ const frame = [
     },
     {
         category : 'shakes',
-        image: "/images/image_6.jpeg",
+        image: "20210918_200420.jpg",
         title : 'Bread and Beans',
         price : '36',
         details: 'praesentium vel minima dolores alias. Ab repellendus neque a illum, eos nostrum doloribus et tenetur. Fugit obcaecati suscipit voluptas animi possimus illum dolore expedita explicabo temporibus non autem magnam iure maiores quis libero vitae, dicta nihil officia quisquam perspiciatis molestiae,' 
     },
     {
         category : 'lunch',
-        image: "/images/image_1.jpg",
+        image: "20211116_120211.jpg",
         title : 'Bread and Beans',
         price : '29',
         details: 'rem nihil repellendus, doloremque molestias dolores doloribus vel fuga voluptatibus quisquam dolore cupiditate. Fuga consequatur magni quod accusamus eaque, vel natus atque nisi. Harum qui, corrupti eaque doloribus quis tempore adipisci voluptates dolorum asperiores mollitia est, nulla debitis officia' 
@@ -57,49 +57,49 @@ const frame = [
     },
     {
         category : 'dinner',
-        image: "/images/image_3.jpg",
+        image: "20210918_200420.jpg",
         title : 'Bread and Beans',
         price : '67',
         details: 'doloremque nam. Iusto ducimus voluptatibus, officia reiciendis possimus unde doloremque error, quod magnam labore ut exercitationem vitae rerum vel nihil optio voluptas mollitia! Atque eum ducimus possimus, dicta fugiat cupiditate? Aliquid maiores dolorum atque rerum excepturi amet ad, harum,' 
     },
     {
         category : 'lunch',
-        image: "/images/image_4.jpeg",
+        image: "20211116_120211.jpg",
         title : 'Bread and Beans',
         price : '37',
         details: 'animi id accusantium temporibus nam esse nemo nobis aliquam ex molestiae eum velit distinctio facere maxime perspiciatis! Beatae vero a voluptatum assumenda accusantium ducimus aliquid nam omnis maiores adipisci quaerat et, repudiandae dolorum recusandae voluptatibus eaque veniam saepe, quia commodi' 
     },
     {
         category : 'dinner',
-        image: "/images/image_5.jpeg",
+        image: "20211126_234427.jpg",
         title : 'Bread and Beans',
         price : '61',
         details: 'Beatae, repellat hic. Ipsa quisquam nostrum aperiam, veritatis assumenda debitis voluptate commodi incidunt eligendi consectetur nesciunt molestias adipisci unde repellendus at velit sint ducimus odit, quo tenetur aliquid laborum minus tempora! Quae at iste odit, recusandae id cupiditate' 
     },
     {
         category : 'lunch',
-        image: "/images/image_6.jpeg",
+        image: "20211126_234427.jpg",
         title : 'Bread and Beans',
         price : '43',
         details: ' Distinctio, qui ipsam. Dolore, ad ducimus aut eligendi doloribus ipsum consequuntur quam harum consectetur odit vitae eius dignissimos, vero, aliquid est.  obcaecati ad quibusdam ratione cum quod, error delectus culpa iusto fuga perspiciatis voluptatem beatae pariatur reprehenderit corporis dicta' 
     },
     {
         category : 'breakfast',
-        image: "/images/image_1.jpg",
+        image: "20211116_120211.jpg",
         title : 'Bread and Beans',
         price : '73',
         details: 'Repellat illo optio doloribus, sapiente animi quos possimus aspernatur reprehenderit autem magnam dolore, nostrum commodi odit nulla beatae quaerat id molestiae, omnis quam accusantium quo? Officia iusto repellendus aliquid et a, repudiandae saepe aut unde officiis at laboriosam, veniam' 
     },
     {
         category : 'dinner',
-        image: "/images/image_2.jpg",
+        image: "20210914_172354.jpg",
         title : 'Bread and Beans',
         price : '32',
         details: 'Explicabo odio quaerat labore deleniti consequuntur facilis commodi nemo minima at, deserunt iure soluta harum repellat adipisci, vitae voluptatibus eum veritatis autem vel nostrum hic quia dolore eligendi perferendis. quasi?  dolorem asperiores nihil maiores. Ab, eius' 
     },
     {
         category : 'breakfast',
-        image: "/images/image_5.jpeg",
+        image: "20211126_234427.jpg",
         title : 'Bread and Beans',
         price : '63',
         details: 'Delectus repellat adipisci eum autem incidunt quam distinctio consectetur laboriosam neque minus, unde explicabo nihil!  id dignissimos sit voluptates praesentium, magni asperiores error iure facilis rerum, reiciendis iusto! Culpa dolore eos ex omnis voluptatem reprehenderit.' 
