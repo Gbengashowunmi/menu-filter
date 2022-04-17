@@ -126,10 +126,9 @@ window.addEventListener('DOMContentLoaded',function()
                 return frameCat;
                 };
        });
-               displayFrameItem(frameCat);                
-       // console.log(frame.filter(({category})=> category == cat),  frame); 
-           
+               displayFrameItem(frameCat);
        });
+     });
        
 //buttons.forEach(function (btn) {
    // btn.addEventListener('click', function (e) {
