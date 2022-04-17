@@ -1,7 +1,7 @@
 const frame = [
     {
         category : 'breakfast',
-        image: "image_2.jpg",
+        image: "20211116_120211.jpg",
         title : 'Bread and Beans',
         price : '50',
         details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia architecto ipsa quis provident iste quibusdam consequuntur in quae Lorem ipsum dolor sit, amet consectetur adipisicing elit..' 
