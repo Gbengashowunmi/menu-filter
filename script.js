@@ -15,7 +15,7 @@ const frame = [
     },
     {
         category : 'lunch',
-        image: "/images/image_3.jpg",
+        image: "20210914_172354.jpg",
         title : 'Bread and Beans',
         price : '65',
         details: 'Autem assumenda eaque sit voluptatem consectetur dolorum et. Ducimus quam quos vero ipsum illum dicta in veniam quod voluptate recusandae aut assumenda voluptatibus quo, libero, delectus facere illo rerum labore! Tempora voluptatum, distinctio accusamus corrupti autem perspiciatis nisi fugiat maiores' 
@@ -29,7 +29,7 @@ const frame = [
     },
     {
         category : 'dinner',
-        image: "/images/image_5.jpeg",
+        image: "20210914_172354.jpg",
         title : 'Bread and Beans',
         price : '83',
         details: 'aperiam vel. Nam, dolorem culpa? Sequi est libero nemo blanditiis dolores aliquid optio! Ut delectus officiis, laboriosam et accusantium ipsam neque facere est tempore adipisci sapiente, nesciunt molestiae vel libero! Cupiditate vitae ut dolores eaque repudiandae debitis, eius culpa temporibus dolorem modi nam ipsam necessitatibus!' 
@@ -50,7 +50,7 @@ const frame = [
     },
     {
         category : 'shakes',
-        image: "/images/image_2.jpg",
+        image: "20210914_172354.jpg",
         title : 'Bread and Beans',
         price : '14',
         details: 'voluptate obcaecati sint recusandae quisquam totam enim! Ea, asperiores! Blanditiis incidunt fugiat doloribus atque mollitia voluptatibus voluptas suscipit amet, earum natus commodi ex doloremque architecto temporibus alias! Earum omnis reiciendis adipisci, in molestias cumque' 
