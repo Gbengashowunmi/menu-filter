@@ -15,7 +15,7 @@ const frame = [
     },
     {
         category : 'lunch',
-        image: "/images/image_3.jpg",
+        image: "20211116_120211.jpg",
         title : 'Bread and Beans',
         price : '65',
         details: 'Autem assumenda eaque sit voluptatem consectetur dolorum et. Ducimus quam quos vero ipsum illum dicta in veniam quod voluptate recusandae aut assumenda voluptatibus quo, libero, delectus facere illo rerum labore! Tempora voluptatum, distinctio accusamus corrupti autem perspiciatis nisi fugiat maiores' 
