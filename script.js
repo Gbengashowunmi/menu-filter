@@ -114,55 +114,34 @@ const buttons = document.querySelectorAll('.btns');
 window.addEventListener('DOMContentLoaded',function()
 {
    displayFrameItem(frame);
- });
+});
 
 //filter items
- //buttons.forEach(function(btn){
-//    btn.addEventListener('click', function(e) {
-//        const cat = e.currentTarget.dataset.me;
+buttons.forEach(function(btn){
+    btn.addEventListener('click', function(e) {
+        const cat = e.currentTarget.dataset.me;
         // console.log(cat);
-//       const frameCat = frame.filter(function(frames){
-   //         if (frames.category = cat){
-  //              return frameCat;
-                };
-//       });
-          //     displayFrameItem(frameCat);
-  //     });
- //    });
+       const frameCat = frame.filter(function(frames){
+        // console.log(frames.category);
+        if (frames.category === cat) {
+            return frames
+        }
+                 });
+                console.log(frameCat);
+        if (cat === "all") {
+            displayFrameItem(frame)
+        }
+        else{
+            displayFrameItem(frameCat)
+        }
+                
+       })
        
-//buttons.forEach(function (btn) {
-   // btn.addEventListener('click', function (e) {
-       // const cat = e.target.innerText;
-        // console.log(cat);
-       // const frameCat = frame.filter(({ category }) => {
-          //  if (cat.toLowerCase() === 'all') return true; // when cat is 'all' just return true for all items (check filter mecthod docs)
-           // return category === cat.toLowerCase(); // i added lower case to match the correct spelling as innerText was capitalized
-       // });
-      //  console.log(frameCat);
-    })
-
-
-    //        if (frames.category === category) {
-    //         return frames;
-    //        }
-    //    }); 
-    //    if (cat === category) {
-    //     console.log(frame);
-    //     displayFrameItem(frame);
-    //    }
-
-    //    else{
-    //     console.log(frameCat);
-    //     displayFrameItem(frameCat);
-    //    }
-    //  });
-        
-        
 });
-// });
+
 
 function displayFrameItem(frameItem) {
-    let displayFrame = frame.map(function(item){
+    let displayFrame = frameItem.map(function(item){
     
         return   `<div class="container">
             <img src=${item.image} alt=${item.title}>
