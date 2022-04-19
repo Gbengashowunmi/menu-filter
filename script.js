@@ -113,7 +113,7 @@ const buttons = document.querySelectorAll('.btns');
 //load items
 window.addEventListener('DOMContentLoaded',function()
 {
-   displayFrameItem(frameItem);
+   displayFrameItem(frame);
 });
 
 //filter items
