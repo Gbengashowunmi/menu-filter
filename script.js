@@ -111,7 +111,7 @@ const buttons = document.querySelectorAll('.btns');
 
 
 //load items
-document.addEventListener('DOMContentLoaded',function()
+window.addEventListener('load',function()
 {
    displayFrameItem(frame);
 });
