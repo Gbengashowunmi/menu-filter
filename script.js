@@ -22,7 +22,7 @@ const frame = [
     },
     {
         category : 'shakes',
-        image: "/images/image_4.jpeg",
+        image: "20211126_234427.jpg",
         title : 'Bread and Beans',
         price : '48',
         details: 'quo repudiandae. Inventore, neque tenetur sit nesciunt consequuntur, optio illum fuga modi eligendi non corporis dolor explicabo animi. Dolorum unde alias molestiae quod, ad labore aspernatur nam harum, voluptas minus explicabo? Reiciendis corrupti quia quam voluptatibus dolore possimus eligendi' 
