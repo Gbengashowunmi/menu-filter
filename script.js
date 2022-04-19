@@ -141,7 +141,7 @@ buttons.forEach(function(btn){
 
 
 function displayFrameItem(frameItem) {
-    let displayFrame = frameItem.map(function(item){
+    let displayFrame = frame.map(function(item){
     
         return   `<div class="container">
             <img src=${item.image} alt=${item.title}>
