@@ -113,31 +113,31 @@ const buttons = document.querySelectorAll('.btns');
 //load items
 window.addEventListener('DOMContentLoaded',function()
 {
-   displayFrameItem(frame);
+   displayFrameItem(frame)
 });
 
 //filter items
-//buttons.forEach(function(btn){
-//    btn.addEventListener('click', function(e) {
-     //   const cat = e.currentTarget.dataset.me;
+buttons.forEach(function(btn){
+    btn.addEventListener('click', function(e) {
+        const cat = e.currentTarget.dataset.me;
         // console.log(cat);
-   //    const frameCat = frame.filter(function(frames){
+       const frameCat = frame.filter(function(frames){
         // console.log(frames.category);
-   //     if (frames.category === cat) {
-        //    return frames
-      //  }
-               //  });
+        if (frames.category === cat) {
+           return frames;
+      /  }
+                 });
         
-      //  if (cat === "all") {
-         //   displayFrameItem(frame)
-      //  }
-       // else{
-      //      displayFrameItem(frameCat)
-      //  }
+        if (cat === "all") {
+            displayFrameItem(frame);
+        }
+        else{
+           displayFrameItem(frameCat);
+        }
                 
-    //   })
+       })
        
-//});
+});
 
 
 function displayFrameItem(frameItem) {
