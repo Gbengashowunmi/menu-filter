@@ -22,6 +22,7 @@ main{
 }
 hr{
     width: 10%;
+    height: 0;
     border: solid 2px blue;
     border-radius: 3px;
 }
@@ -32,17 +33,19 @@ button{
     background-color: blue;
     border: solid 1.5px blue;
     border-radius: 3px;
+    transition: 0.8s;
 }
 button:hover{
     background-color: rgb(210, 237, 180);
     color: blue;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 
 
 .main-container{
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -51,22 +54,23 @@ button:hover{
     
 }
  .container{
-    width: 500px;
+    width: 40%;
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    align-items: center;
     
 
 }
 img{
-    width: 100%;
+    width: 120px;
     height: auto;
     border: solid 2px blue;
     border-radius: 6px;
 }
 .info{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 800px;
+    width: 100%;
     
 }
 .title_price{
@@ -78,3 +82,31 @@ img{
     color: brown;
 }
 
+
+@media(max-width: 600px){
+    .main-container{
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .container{
+        width: 200px;
+        
+    }
+    img{
+        width: 90px;
+        height: auto;
+    }
+    .info{
+        width: 200px;
+    }
+    .details{
+        font-size: 65%;
+    }
+    .title_price{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 70%;
+    }
+}
