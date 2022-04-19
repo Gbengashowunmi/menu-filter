@@ -127,7 +127,7 @@ buttons.forEach(function(btn){
             return frames
         }
                  });
-              displayFrameItem(frameCat);
+        
         if (cat === "all") {
             displayFrameItem(frame)
         }
