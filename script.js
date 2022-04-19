@@ -8,7 +8,7 @@ const frame = [
     },
     {
         category : 'breakfast',
-        image: "/images/image_1.jpg",
+        image: "20210918_200420.jpg",
         title : 'Bread and Beans',
         price : '53',
         details: ' Commodi labore repellat excepturi earum sequi molestias repudiandae non odio ea quisquam ab voluptates dicta debitis quo, tempora totam nam magni similique consequatur est at placeat facilis' 
